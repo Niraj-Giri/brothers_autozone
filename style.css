@@ -1,0 +1,298 @@
+/* *{
+    margin-left:20px;
+    margin-right:20px;
+} */
+
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #e9edef;
+  
+    
+}
+nav{
+    position: sticky;
+    top:0px;
+    z-index: 9;
+    
+           
+}
+/* .nav-colored { background-color:#eb1010; }
+.nav-transparent { background-color:transparent;} */
+
+
+.navbar ul{
+    list-style: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+   
+    display: flex;
+    justify-content: center;
+    gap:50px
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.navbar a:hover{
+    background-color: rgb(18, 18, 18);
+}
+#welcome{
+    z-index:3;
+    position: relative;
+    left:50px;
+    top:100px;
+    font-size: 50px;
+    color: white;
+    width: 100px;   
+    height: 100px;
+}
+
+#container{
+      background-image: url("homepage.jpg" );
+      width: 100%;
+      height:100vh;
+      background-size:100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top:0px;
+      right: 0px;
+      left: 0px;
+      
+    
+      
+    }
+    #brands{
+        position: relative;
+        top: 630px;
+        text-align: center;
+    }
+.brands
+{
+ 
+    position: relative;
+    top:630px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+   
+    height: 200px;
+   
+
+}
+.brands li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.brands li img{
+   
+    width: 180px;
+    height: 150px;
+    object-fit:cover;
+    opacity: 0.8;
+}
+    #services{
+        top:680px;
+        position: relative;
+        text-align: center;
+    }
+    .service{
+       margin-left: 50px;
+       margin-right: 50px;
+        position: relative;
+        top:700px;
+        overflow: hidden;
+       
+
+    }
+ .grid-container{
+    /* width: 1000px; */
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+     background-color: #e9edef;
+     padding: 10px;
+ }
+ .grid-item {
+    background-color: rgba(255, 255, 255, 0.905);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+     object-fit: cover;
+    
+  }
+  .grid-item:hover{
+    background-color: rgb(198, 195, 195);
+  }
+  .grid-item img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+  }
+  .grid-item a{
+   width:300px;
+   height: auto;
+ 
+  }
+  #buyandsell{
+    position: relative;
+     top:750px;
+     font-weight: 900;
+     font-size: 25px;;
+     text-align: center;
+  }
+.buyandsell{
+    position: relative;
+    top:800px;
+    /* border: 1px solid red; */
+     margin-left: 50px;
+     margin-right: 50px;
+     height: auto;
+    
+}
+.toggle-container {
+    display: flex;
+    position: relative;
+    top:800px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+     border: none;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 252);
+    margin: 5px;
+    margin-left: 50px;;
+    cursor: pointer;
+    font-size: 30px;;
+  }
+  
+  .toggle-button:hover {
+    background-color: #d9c9c9;
+  }
+  .toggle-button:active {
+    background-color: #8d7d7d;
+  }
+  
+  /* .usedbike-container{
+    position: relative;
+    top: 842px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+     row-gap: 10px;
+     height: 800px;
+     overflow-y: scroll;
+     scrollbar-color:rgb(14, 14, 14) ;
+     scrollbar-width: thin;
+  
+    background-color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    padding-left: 55px;
+    border: 1px solid black;
+    background-color: #e9edef;
+  }
+
+
+  .usedbike-container .grid-bikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid rgb(200, 196, 196);
+    padding: 10px;;
+    height: 300px; object-fit: cover;
+    background-color: white; */
+   
+/* 
+  }
+  .grid-bikes div{
+    margin-top: 20px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+    font-size: 20px;
+    
+  }
+  .sellbike{
+    position: relative;
+    top: 0px;
+    display: hidden;
+    height: 500px;
+    border: 1px solid black ;
+    margin-left:50px;
+    margin-right: 50px;
+  }  */
+   .slidecontainer{
+      width: 80%;
+      position:relative;
+      margin: auto;
+      top:800px;
+      height: 600px;
+      box-sizing: border-box;
+      box-shadow: 3px 3px 16px rgb(23, 22, 22);
+      overflow: hidden;
+   }
+   .imgcontainer{
+    width: 100%;
+    height: 500px;
+   }
+    .imgcontainer img{
+      width: 100%;
+      height: 100%;
+     
+
+    }
+
+    #location{
+    top:1000px;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+  .location{
+    position: relative;
+    z-index: 5;
+    top:1000px;
+    border: 1px solid ;
+    margin: 20px;
+    padding: 20px;
+    
+
+  }
+  .location iframe{
+    width: 100%;
+    height: 800px;
+  }
+  
